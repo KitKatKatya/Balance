@@ -12,13 +12,12 @@ import {
 
 export function initFirebase() {
   const firebaseConfig = {
-    apiKey: "AIzaSyDgmBSpuzMuyZ2z_Dd5KSwwPRRHNvDw5so",
-    authDomain: "balance-scores.firebaseapp.com",
-    projectId: "balance-scores",
-    storageBucket: "balance-scores.appspot.com",
-    messagingSenderId: "900673448207",
-    appId: "1:900673448207:web:dd5f173851b0edcb7a767a"
-  };
+  apiKey: "AIzaSyAdg24vyh37b8k7Odw1lm537H823T5b7j8",
+  authDomain: "feelings-b4f50.firebaseapp.com",
+  projectId: "feelings-b4f50",
+  storageBucket: "feelings-b4f50.appspot.com",
+  messagingSenderId: "163419273883"
+};
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
