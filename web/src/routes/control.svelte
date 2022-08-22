@@ -30,10 +30,10 @@
   {#await loginWithGoogle()}
     <p>Logging in...</p>
   {:then user}
-    {#if user?.uid === "sDV4cfFys0R5bapdvpeCTQSL9t32"}
+    {#if user?.uid === "Y845nY8kRUdJQ7Lpgv6hOWPg5b62"}
       <AdminPanel {db} />
     {:else}
-      <p>This only works if you log in as Steven, sorry</p>
+      <p>This only works if you log in as Katya, sorry</p>
     {/if}
   {/await}
 </div>
